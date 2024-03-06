@@ -1,4 +1,4 @@
-FROM madnificent/elixir-server:1.11.0
+FROM nvdk/elixir-server:feature-debian-based
 
 COPY . /app
 
