@@ -1,4 +1,4 @@
-FROM madnificent/elixir-server:1.13.0
+FROM redpencil/elixir-server:feature-test-buildx-arm64
 
 COPY . /app
 
