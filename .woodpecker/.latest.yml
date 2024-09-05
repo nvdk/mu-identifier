@@ -1,6 +1,6 @@
 pipeline:
   build-and-push:
-    image: redpencil/plugin-docker-buildx:add-remote-builders
+    image: docker.io/woodpeckerci/plugin-docker-buildx:pull_179
     settings:
       platforms: linux/amd64,linux/arm64 
       repo: "${CI_REPO_OWNER##mu-}/${CI_REPO_NAME%%-service}"
